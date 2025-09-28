@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a40000;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+.logo .plus {
+  color: #ff3333;
+}
+
+.lang a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.event-bar {
+  background: #f9f9f9;
+  border-top: 2px solid #a40000;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-col .news-box {
+  margin-bottom: 20px;
+}
+.left-col img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.main-col .main-img {
+  width: 100%;
+  border-radius: 8px;
+}
+.main-col h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.right-col h3 {
+  border-bottom: 2px solid #a40000;
+  padding-bottom: 5px;
+}
+.right-col ul {
+  list-style: none;
+  padding: 0;
+}
+.right-col li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+body {
+      margin: 0;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .menu-icon {
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .search-box {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 5px 10px;
+      margin-left: 15px;
+    }
+    .search-box input {
+      border: none;
+      outline: none;
+      font-size: 14px;
+      margin-left: 5px;
+    }
+    @font-face {
+  font-family: 'MyCustomFont';
+  src: url("NVNCocogooseVintage-Regular.ttf"),
+       url("NVNCocogooseVintage-Regular.ttf"),
+       url("NVNCocogooseVintage-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family:"NVNCocogooseVintage-Regular.ttf";
+}
+    .logo {
+      font-size: 60px;
+      font-weight: bold;
+      color: #780115;
+      margin-left: 20px;
+      font-family: href="";
+    }
+    .logo small {
+      display: block;
+      font-size: 12px;
+      color: #333;
+    }
+    .right-icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .circle-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .circle-icon.blue {
+      background: #005b85;
+      color: #fff;
+    }
+    /* Thanh menu dưới */
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 20px;
+      border-top: 1px solid #eee;
+      border-bottom: 1px solid #eee;
+      font-size: 14px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: black;
+    }
+    .nav a.home {
+      color: #0073e6;
+      font-weight: bold;
+    }
+    /* Container chính chia 3 cột */
+.container {
+  display: flex;
+  gap: 20px;       /* khoảng cách giữa các cột */
+  margin: 20px;
+}
+
+/* Cột trái */
+.left-col {
+  flex: 1;         /* nhỏ nhất */
+}
+
+/* Cột giữa (tin chính) */
+.main-col {
+  flex: 2;         /* lớn hơn để nổi bật */
+}
+
+/* Cột phải (tin mới nhận) */
+.right-col {
+  flex: 1;
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+}
+
+/* Ảnh tin chính */
+.main-img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Tin mới nhận */
+.right-col h3 {
+  border-left: 4px solid #a60000;
+  padding-left: 8px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.right-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.right-col li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+.right-col {
+  width: 25%;
+  padding: 10px;
+}
+
+.right-col h3 {
+  margin-bottom: 15px;
+}
+
+.news-box {
+  margin-bottom: 20px;
+}
+
+.news-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.news-box p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+/* Áp dụng cho cả 3 cột */
+.left-col a,
+.main-col a,
+.right-col a {
+  color: black;          /* luôn đen */
+  text-decoration: none; /* bỏ gạch chân mặc định */
+}
+
+.left-col a:visited,
+.main-col a:visited,
+.right-col a:visited {
+  color: black;          /* không đổi sang tím */
+}
+
+.left-col a:hover,
+.main-col a:hover,
+.right-col a:hover {
+  color: #333;           /* hover đen đậm hơn một chút */
+  text-decoration: underline; /* gạch chân khi hover */
+}
+
+.left-col a:active,
+.main-col a:active,
+.right-col a:active {
+  color: black;          /* khi click vẫn giữ đen */
+}
+.slideshow-container {
+  max-width: 800px; /* bạn chỉnh kích thước slide tại đây */
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  border-radius: 8px;
+}
+
+/* Nút điều hướng */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Chấm tròn */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
